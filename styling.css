@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #16011d;
     color: #FBFEF9;
     font-family: Roboto, sans-serif;
     line-height: 1.6;
@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    color: #eb66e0;
+    color: #f181e8;
     margin-bottom: 10px;
 }
 
@@ -32,9 +32,10 @@ button {
     background-color: #ffe7fd;
     color: rgb(82, 2, 82);
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 0.8rem 1.8rem;
     font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -45,7 +46,7 @@ button:hover {
 section {
     margin-top: 2.5rem;
     border: 1px solid #FBFEF9;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 1rem;
 }
 
@@ -60,7 +61,7 @@ summary {
 details {
     background-color: #ffe7fd;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 details[open] {
