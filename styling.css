@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #191923;
-    /* color: rgb(0, 0, 0); */
+    background-color: #000;
+    color: #FBFEF9;
     font-family: Roboto, sans-serif;
     line-height: 1.6;
 }
@@ -24,13 +24,13 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    /* color: #e936da; */
+    color: #eb66e0;
     margin-bottom: 10px;
 }
 
 button { 
-    /* background-color: #e936da; */
-    /* color: white; */
+    background-color: #ffe7fd;
+    color: rgb(82, 2, 82);
     border: none;
     border-radius: 5px;
     padding: 0.8rem 1.8rem;
@@ -39,45 +39,39 @@ button {
 }
 
 button:hover {
-    /* background-color:#64045c; */
+    background-color:#f3a8ed;
 }
 
 section {
     margin-top: 2.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #FBFEF9;
     border-radius: 5px;
     padding: 1rem;
 }
 
-ul {
-    text-align: left;
-}
-
-li {
-    margin-bottom: 1rem;
-}
 
 summary {
     cursor: pointer;
-    /* color: #5524b1; */
+    color: rgb(82, 2, 82);
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 details {
-    background-color: #e9ecef;
+    background-color: #ffe7fd;
     padding: 1rem;
     border-radius: 5px;
 }
 
 details[open] {
-    background-color: #c9c1d4;
+    background-color: #f3a8ed;
 }
 
-details p {
-    margin-top: 0.5rem;
-    color: #333;
+figcaption {
+    color: rgb(82, 2, 82);
+
 }
+
 
 @keyframes fadeIn {
   from {
