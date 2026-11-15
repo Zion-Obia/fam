@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    color: #f181e8;
+    color: #f091e8;
     margin-bottom: 10px;
 }
 
@@ -73,7 +73,6 @@ figcaption {
 
 }
 
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -85,17 +84,81 @@ figcaption {
   }
 }
 
+@keyframes pulse {
+  from { transform: scale(1); }
+  to   { transform: scale(1.08); }
+}
+
+button {
+  animation: pulse 1.2s ease-in-out infinite alternate;
+}
+
 h1, h2 {
   animation: fadeIn 2s ease-out;
 }
 
-button {
+/* button {
   animation: fadeIn 3s ease-out;
-}
+} */
 
 p {
   animation: fadeIn 2s ease-out 0.5s;
   animation-fill-mode: backwards;
 }
 
+details {
+  animation: fadeIn 2s ease-out 1s;
+  animation-fill-mode: backwards;
+}
+
+#wishMessage {
+  animation: fadeIn 2s ease-out 1s;
+  animation-fill-mode: backwards;
+}
+
+.memories {
+  animation: fadeIn 2s ease-out 1.5s;
+  animation-fill-mode: backwards;
+}
+
+video {
+  animation: fadeIn 2s ease-out 2s;
+  animation-fill-mode: backwards;
+}
+
 .hidden { display: none; }
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.video figcaption {
+    animation: fadeIn 2s ease-out 2.5s;
+    animation-fill-mode: backwards;
+}
+
+.memories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+
+.memories img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.memories figure {
+    margin: 0;
+}
+
+.video figcaption {
+    margin-top: 0.5rem;
+    color:  #FBFEF9;
+}
