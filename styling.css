@@ -64,6 +64,7 @@ summary {
     font-family: var(--font-primary);
     font-size: 1.3rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 details {
@@ -78,7 +79,7 @@ details[open] {
 
 details p {
     margin-top: 2rem;
-    border-top: 1px solid #FBFEF9;
+    border-top: 1px solid rgb(82, 2, 82);
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;  
@@ -148,6 +149,7 @@ video {
 video {
   max-width: 100%;
   height: auto;
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
 }
 
