@@ -3,8 +3,8 @@
 }
 
 :root {
-  --font-primary: "Playfair Display", serif;
-  --font-secondary: "Lato", sans-serif;
+  --font-primary: "Roboto", serif;
+  --font-secondary: "Shantell Sans", sans-serif;
 }
 
 body {
@@ -61,7 +61,8 @@ section {
 summary {
     cursor: pointer;
     color: rgb(82, 2, 82);
-    font-size: 1.2rem;
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -73,6 +74,15 @@ details {
 
 details[open] {
     background-color: #f3a8ed;
+}
+
+details p {
+    margin-top: 2rem;
+    border-top: 1px solid #FBFEF9;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;  
+    color: rgb(82, 2, 82);
 }
 
 figcaption {
